@@ -1,0 +1,5 @@
+#!/bin/sh
+
+npm run lint || exit 1
+./validate.sh || exit 1
+
